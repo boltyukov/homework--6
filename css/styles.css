@@ -64,12 +64,17 @@
 }
 .third > div > div {
   height: 200px;
+  font-size: 20px;
   width: 800px;
 }
 .third > div > div + div {
+  color: darkblue;
+  height: 200px;
   width: 400px;
 }
 .third > div > div + div + div {
-  width: 395px;
-  height: 90px;
+  height: 100px;
+}
+.third > div > div + div > div {
+  height: 100px;
 }
