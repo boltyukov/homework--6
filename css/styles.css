@@ -72,9 +72,7 @@
   height: 200px;
   width: 400px;
 }
-.third > div > div + div + div {
-  height: 100px;
-}
+
 .third > div > div + div > div {
   height: 100px;
 }
