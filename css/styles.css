@@ -76,3 +76,100 @@
 .third > div > div + div > div {
   height: 100px;
 }
+/* Flex */
+.flex-container {
+  width: 1200px;
+
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.flex-first {
+  font-size: 0px;
+  background: green;
+  display: flex;
+}
+.flex-first div,
+.flex-second div,
+.flex-third div {
+  outline: 1px solid black;
+}
+.flex-first div {
+  width: 400px;
+  height: 400px;
+  display: inline-block;
+  font-size: 20px;
+}
+/* second container */
+.flex-second {
+  display: flex;
+  font-size: 0px;
+  background: yellow;
+}
+.flex-second > div {
+  display: flex;
+  width: 800px;
+  font-size: 20px;
+flex-direction: column;
+}
+.flex-second > div > div {
+  height: 200px;
+}
+.flex-second > div + div {
+  width: 400px;
+  align-items: start;
+}
+.flex-second > div + div > div {
+  display: flex;
+  flex-direction: column;
+  height: 133.33px;
+
+}
+/* third container */
+.flex-third {
+  font-size: 0px;
+  background: red;
+  display: flex;
+}
+.flex-third div {
+  display: flex;
+ flex-direction: column;
+ 
+ 
+  height: 200px;
+  font-size: 20px;
+}
+
+.flex-third > div {
+  width: 400px;
+  height: 400px;
+  font-size: 20px;
+}
+.flex-third > div + div {
+  width: 800px;
+  font-size: 20px;
+  height: 400px;
+}
+.flex-third > div > div {
+
+ flex-direction: row;
+  height: 400px;
+  font-size: 20px;
+  width: 800px;
+}
+.flex-third > div > div + div {
+  
+flex-direction: column;
+
+ 
+  color: darkblue;
+  height: 200px;
+  width: 400px;
+
+}
+
+.flex-third > div > div + div > div {
+  
+ 
+  height: 100px;
+}
