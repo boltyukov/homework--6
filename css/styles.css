@@ -125,66 +125,19 @@ flex-direction: column;
 
 }
 /* third container */
-.flex-third {
- 
-  background: red;
-  display: flex;
-}
-.flex-third div {
-
-
-
-  height: 200px;
-  font-size: 20px;
-}
-
-.flex-third > div {
-  width: 400px;
-  height: 400px;
-  display: flex;
-  
-}
-.flex-third > div + div {
- 
-  width: 800px;
-  
-  height: 400px;
-}
-.flex-third > div > div {
-  
-  height: 200px;
-
-  width: 800px;
-}
-.flex-third > div > div + div {
- display: flex;
-  color: darkblue;
-  height: 200px;
-  width: 400px;
- flex-direction: column;
-  align-self: flex-end;
-  
-  
-
-}
-
-.flex-third > div > div + div > div {
-    flex-basis: 100%;
-   align-self: flex-end;
-  height: 100px;
-}
 
 
 
 
 .box{
-background: black;
-outline: 2px solid red;
+background: red;
+outline: 2px solid grey;
 max-width: 1200px;
 margin: 0 auto;
 }
 .box div{ 
-  outline: 2px solid red;
+  outline: 2px solid grey;
+  color: blue;
 
 }
 .flex{
